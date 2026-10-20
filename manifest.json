@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "tetraslam.alttab",
+  "name": "Alt+Tab",
+  "version": "0.1.0",
+  "author": "Shresht Bhowmick",
+  "license": "MIT",
+  "description": "Windows-style Alt+Tab: tap to flip to the last window, hold for a frosted grid of live thumbnails in most-recently-used order across every workspace.",
+  "kinds": [
+    "overlay"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "overlay": "AltTab.qml"
+  }
+}
